@@ -5,7 +5,7 @@
 body {
   direction: ltr;
   color:#FFF;
-  background-color:#333 /*#766653 #463a2d */
+  background-color:#333
 }
 input {
   color:#000
@@ -16,7 +16,7 @@ input {
   margin-top: 5%;
   margin-right: auto;
   margin-left: auto;
-  border: 2px solid   #66635e  /*#463a2d  #234235 #947048 #dfd8d0 #908b85 */;
+  border: 2px solid #66635e;
   padding: 60px 30px;
   border-radius: 5px;
   box-shadow: 7px 10px 34px 1px rgba(0, 0, 0, 0.68), inset -1px -6px 12px 0.1px #89847e;
@@ -40,8 +40,6 @@ input {
   width: 55px;
   font-size: 16px;
   margin:2px;
-/*  padding-right: 22px;*/
-/*  padding-left: 22px;*/
 }
 
 .number {

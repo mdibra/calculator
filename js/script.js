@@ -1,8 +1,6 @@
 $(document).ready(function(){
-//  var arr = [10,'-',1];
-//  var so = eval(arr.join(' '));
-//  console.log(so);
-console.log($('#screen').html().length);
+
+  
   var zeroSet = $('<div class="sero-set">'),
       firstSet = $('<div class="first-set">'),
       secondSet = $('<div class="second-set">'),
@@ -24,18 +22,18 @@ console.log($('#screen').html().length);
       $(zeroSet).append(zeroMins, iNumber0, dot, plus);
     }
     if(i > 0 && i < 4){
-//      console.log(i);
+
       var iNumber1 = $('<div class="btn btn-default number" id="'+i+'">'+i+'</div>');
       $(firstSet).append(iNumber1, mins);
 
     }
     if(i >= 4 && i < 7){
-//      console.log(i);
+
       var iNumber2 = $('<div class="btn btn-default number" id="'+i+'">'+i+'</div>');
       $(secondSet).append(iNumber2, mulitplication);
     }
     if(i >= 7 && i < 10 ){
-//      console.log(i);
+
       var iNumber3 = $('<div class="btn btn-default number" id="'+i+'">'+i+'</div>');
       $(thirdSet).append(iNumber3, division);
     }
@@ -53,9 +51,7 @@ console.log($('#screen').html().length);
       $('#screen').append(iNumberValue);
       $('input').val(iNumberValue);
       vas = vas + $('#screen').html();
-      console.log(vas);
-      console.log($('#screen').html());
-      console.log($('#screen').html().length);
+
     });
   }
 
@@ -64,7 +60,7 @@ console.log($('#screen').html().length);
   function addTool(e) {
     
     if($('#screen').text().length <= 0) {
-      console.log('no');
+
 
     } else {
       $('#screen').append(' ' + $(this).html() + ' ');
